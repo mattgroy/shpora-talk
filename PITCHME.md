@@ -1,11 +1,11 @@
-### ECS
+### Entity Component System
 
 Ратков Макс
 
 ---
 
-### Привычное ООП
-<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/oo.svg" />
+#### Привычное ООП
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.svg" />
 @ul
 - Объекты связаны друг с другом с помощью множества ссылок
 - Данные и логика, их изменяющая, находятся в одном классе
@@ -13,21 +13,21 @@
 
 +++ 
 
-### Производительность
+#### Производительность
 
 - Объекты в памяти расположены хаотично
 ![](src/memrand.png)
 
 +++ 
 
-### Толстые базовые классы
+#### Толстые базовые классы
 
 - Хочешь добавить новые фичи - скорее всего нужны новые поля/свойства
 ![](src/big.png)
 
 +++ 
 
-### Неочевидно, где писать код
+#### Неочевидно, где писать код
 
 @ul
 - Многие системы в играх не работают лишь с одним объектом
@@ -36,7 +36,7 @@
 
 ---
 
-### Код и данные - вместе или раздельно?
+#### Код и данные - вместе или раздельно?
 
 @ul
 - Типичный ООП: данные и методы над ними - в одном классе.
@@ -51,7 +51,7 @@
 
 +++
 
-### Данных - много
+#### Данных - много
 
 @ul
 - Как часто вы встречаетесь с единственным экземпляром конкретной вещи?
@@ -62,22 +62,22 @@
 
 ---
 
-### Data Oriented Design!
+#### Data Oriented Design!
 
-ECS:
+*ECS*:
 - Entity
 - Component
 - System
 
 +++
 
-### А как это? ОО стиль
+#### А как это? ОО стиль
 
-<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/oo.svg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.svg" />
 
 +++
 
-### А как это? ОО стиль
+#### А как это? ОО стиль
 
 ```csharp
 class Person
@@ -92,7 +92,7 @@ class DateTime<T> { /* fields */ }
 
 +++
 
-### А как это? ОО стиль
+#### А как это? ОО стиль
 
 ```csharp
 class World
@@ -120,9 +120,9 @@ class World
 
 +++
 
-### А как это? EC стиль
+#### А как это? EC стиль
 
-<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/ec.svg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/ec.svg" />
 
 `Person` больше не существует физически, он является абстрактным понятием.
 
@@ -132,13 +132,13 @@ class World
 
 +++
 
-### А как это? EC стиль
+#### А как это? EC стиль
 
-<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/blackmeme.jpeg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/blackmeme.jpeg" />
 
 ---
 
-### Средний возраст
+#### Средний возраст
 
 ```
 averageAge = totalAge / peopleCount
@@ -146,7 +146,7 @@ averageAge = totalAge / peopleCount
 
 +++
 
-### Средний возраст
+#### Средний возраст
 
 ```csharp
 class Person
@@ -165,7 +165,7 @@ var meanAge = people
 
 +++
 
-### Доступ к памяти
+#### Доступ к памяти
 
 <table style="font-size: 0.6em;">
     <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
@@ -187,7 +187,7 @@ var meanAge = people
 
 +++
 
-### Доступ к памяти
+#### Доступ к памяти
 
 <table style="font-size: 0.6em;">
     <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
@@ -209,7 +209,7 @@ var meanAge = people
 
 ---
 
-### Средний возраст: Структура массивов
+#### Средний возраст: Структура массивов
 
 ```csharp
 ContactDetails[] contactDetails = /* ... */;
@@ -226,7 +226,7 @@ var mean_age = world
 
 +++
 
-### Доступ к памяти: Структура массивов
+#### Доступ к памяти: Структура массивов
 
 <table style="font-size: 0.6em;">
     <tr><td>D0</td><td bgcolor="#eecc99">Date of Birth</td></tr>
@@ -237,7 +237,7 @@ var mean_age = world
 
 +++
 
-### Доступ к памяти: Структура массивов
+#### Доступ к памяти: Структура массивов
 
 <table style="font-size: 0.6em;">
     <tr><td>D0</td><td bgcolor="#aaccff">Date of Birth</td></tr>
@@ -248,7 +248,7 @@ var mean_age = world
 
 +++
 
-### AOS vs SOA
+#### AOS vs SOA
 
 ```
 name      aos ns/iter  soa ns/iter  diff ns/iter   diff %
@@ -266,15 +266,15 @@ avg_age   2,409,768    2,200,761        -209,007   -8.67%
 
 +++
 
-<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/intel1.jpg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/intel1.jpg" />
 
 +++
 
-<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/intel1.jpg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/intel1.jpg" />
 
 ---
 
-### Summarise
+#### Summarise
 
 ![](src/ecsjob.png)
 
