@@ -1,11 +1,11 @@
-###ECS
+### ECS
 
 Ратков Макс
 
 ---
 
 ### Привычное ООП
-![](src/oo.svg)
+<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/oo.svg" />
 @ul
 - Объекты связаны друг с другом с помощью множества ссылок
 - Данные и логика, их изменяющая, находятся в одном классе
@@ -23,7 +23,7 @@
 ### Толстые базовые классы
 
 - Хочешь добавить новые фичи - скорее всего нужны новые поля/свойства
-@code[cpp zoom-14](src/big.cpp)
+![](src/big.png)
 
 +++ 
 
@@ -73,7 +73,7 @@ ECS:
 
 ### А как это? ОО стиль
 
-![](src/oo.svg)
+<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/oo.svg" />
 
 +++
 
@@ -122,7 +122,7 @@ class World
 
 ### А как это? EC стиль
 
-![](src/ec.svg)
+<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/ec.svg" />
 
 `Person` больше не существует физически, он является абстрактным понятием.
 
@@ -134,7 +134,7 @@ class World
 
 ### А как это? EC стиль
 
-![](scr/blackmeme.jpeg)
+<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/blackmeme.jpeg" />
 
 ---
 
@@ -264,7 +264,13 @@ avg_age   2,404,514    2,175,141        -229,373   -9.54%
 avg_age   2,409,768    2,200,761        -209,007   -8.67%
 ```
 
-- Возможность лёгкого внедрения параллелизма
++++
+
+<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/intel1.jpg" />
+
++++
+
+<img src="https://github.com/mattgroy/shpora-talk/blob/master/src/intel1.jpg" />
 
 ---
 
