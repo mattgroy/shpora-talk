@@ -23,7 +23,7 @@
 #### Толстые базовые классы
 
 - Хочешь добавить новые фичи - скорее всего нужны новые поля/свойства
-![](src/big.png)
+![](src/big1.png)
 
 +++ 
 
@@ -270,12 +270,12 @@ avg_age   2,409,768    2,200,761        -209,007   -8.67%
 
 +++
 
-<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/intel1.jpg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/intel2.jpg" />
 
 ---
 
 #### Summarise
 
-![](src/ecsjob.png)
+![](src/ecsjob.PNG)
 
 
