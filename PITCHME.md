@@ -5,7 +5,7 @@
 ---
 
 #### Привычное ООП
-<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.svg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.png" />
 @ul
 - Объекты связаны друг с другом с помощью множества ссылок
 - Данные и логика, их изменяющая, находятся в одном классе
@@ -65,15 +65,17 @@
 #### Data Oriented Design!
 
 *ECS*:
+@ul
 - Entity
 - Component
 - System
+@ulend
 
 +++
 
 #### А как это? ОО стиль
 
-<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.svg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.png" />
 
 +++
 
@@ -122,13 +124,10 @@ class World
 
 #### А как это? EC стиль
 
-<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/ec.svg" />
+<img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/ec.png" />
 
-`Person` больше не существует физически, он является абстрактным понятием.
-
-Теперь `Person` - это вертикальный разрез двух массивов.
-
-Массивы = `компоненты`
+- `Person` больше не существует физически, он является абстрактным понятием.
+- Теперь `Person` - это вертикальный разрез двух массивов.
 
 +++
 
@@ -278,4 +277,14 @@ avg_age   2,409,768    2,200,761        -209,007   -8.67%
 
 ![](src/ecsjob.PNG)
 
++++
+
+Минусы:
+- Сложность в осознании
+- Трудно применить данный подход в ongoing проектах
+- Оптимизирует отнюдь не всегда
+
+Рекомендации:
+- [Игровые фичи с помощью ECS: добавляем в шутер аптечки](https://habr.com/ru/company/pixonic/blog/431660/)
+- [Unity3D College](https://www.youtube.com/channel/UCX_b3NNQN5bzExm-22-NVVg)
 
