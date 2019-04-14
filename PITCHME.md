@@ -197,21 +197,21 @@ var meanAge = people
 @snapend
 
 <table style="font-size: 0.6em;">
-    <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
-    <tr><td bgcolor="#eecc99">Date of Birth</td></tr>
+    <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
+    <tr><td bgcolor="#b74e4e">Date of Birth</td></tr>
 
-    <tr><td rowspan="3">P1</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
-    <tr><td bgcolor="#eecc99">Date of Birth</td></tr>
+    <tr><td rowspan="3">P1</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
+    <tr><td bgcolor="#b74e4e">Date of Birth</td></tr>
 
-    <tr><td rowspan="3">P2</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
-    <tr><td bgcolor="#eecc99">Date of Birth</td></tr>
+    <tr><td rowspan="3">P2</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
+    <tr><td bgcolor="#b74e4e">Date of Birth</td></tr>
 
-    <tr><td rowspan="3">P3</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
-    <tr><td bgcolor="#eecc99">Date of Birth</td></tr>
+    <tr><td rowspan="3">P3</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
+    <tr><td bgcolor="#b74e4e">Date of Birth</td></tr>
 </table>
 
 +++
@@ -221,20 +221,20 @@ var meanAge = people
 @snapend
 
 <table style="font-size: 0.6em;">
-    <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
+    <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
     <tr><td bgcolor="#aaccff">Date of Birth</td></tr>
 
-    <tr><td rowspan="3">P1</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
+    <tr><td rowspan="3">P1</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
     <tr><td bgcolor="#aaccff">Date of Birth</td></tr>
 
-    <tr><td rowspan="3">P2</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
+    <tr><td rowspan="3">P2</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
     <tr><td bgcolor="#aaccff">Date of Birth</td></tr>
 
-    <tr><td rowspan="3">P3</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
-    <tr><td bgcolor="#eecc99">Phone Number</td></tr>
+    <tr><td rowspan="3">P3</td><td rowspan="2" bgcolor="#b74e4e">Contact Details</td><td bgcolor="#b74e4e">Address</td></tr>
+    <tr><td bgcolor="#b74e4e">Phone Number</td></tr>
     <tr><td bgcolor="#aaccff">Date of Birth</td></tr>
 </table>
 
@@ -264,10 +264,10 @@ var mean_age = world
 @snapend
 
 <table style="font-size: 0.6em;">
-    <tr><td>D0</td><td bgcolor="#eecc99">Date of Birth</td></tr>
-    <tr><td>D1</td><td bgcolor="#eecc99">Date of Birth</td></tr>
-    <tr><td>D2</td><td bgcolor="#eecc99">Date of Birth</td></tr>
-    <tr><td>D3</td><td bgcolor="#eecc99">Date of Birth</td></tr>
+    <tr><td>D0</td><td bgcolor="#b74e4e">Date of Birth</td></tr>
+    <tr><td>D1</td><td bgcolor="#b74e4e">Date of Birth</td></tr>
+    <tr><td>D2</td><td bgcolor="#b74e4e">Date of Birth</td></tr>
+    <tr><td>D3</td><td bgcolor="#b74e4e">Date of Birth</td></tr>
 </table>
 
 +++
