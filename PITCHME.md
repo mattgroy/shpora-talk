@@ -4,10 +4,10 @@
 
 ---
 
-@snap[north headline span-80]
 **Привычное ООП**
-@snapend
+
 <img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.png" />
+
 @ul
 - Объекты связаны друг с другом с помощью множества ссылок
 - Данные и логика, их изменяющая, находятся в одном классе
@@ -24,9 +24,7 @@
 
 +++ 
 
-@snap[north headline span-80]
 **Толстые базовые классы**
-@snapend
 
 - Хочешь добавить новые фичи - скорее всего нужны новые поля/свойства
 ![](src/big1.png)
@@ -89,9 +87,7 @@
 
 +++
 
-@snap[north headline span-80]
 **А как это? ОО стиль**
-@snapend
 
 <img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.png" />
 
