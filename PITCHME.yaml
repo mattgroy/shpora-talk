@@ -19,7 +19,7 @@ theme : night
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : vs-2015
+highlight : ocean
 
 #
 # Layout Setting
