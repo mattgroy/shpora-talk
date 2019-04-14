@@ -26,3 +26,5 @@ highlight : atom-one-dark
 # Doc: https://gitpitch.com/docs/settings/layout
 #
 layout : center
+
+theme-override : template/css/PITCHME.css
