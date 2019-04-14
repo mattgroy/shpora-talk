@@ -13,13 +13,13 @@ published : true
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : simple
+theme : night
 
 #
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : atom-one-dark
+highlight : vs-2015
 
 #
 # Layout Setting
