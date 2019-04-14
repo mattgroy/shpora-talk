@@ -4,7 +4,9 @@
 
 ---
 
-#### Привычное ООП
+@snap[north headline span-80]
+**Привычное ООП**
+@snapend
 <img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.png" />
 @ul
 - Объекты связаны друг с другом с помощью множества ссылок
@@ -13,21 +15,27 @@
 
 +++ 
 
-#### Производительность
+@snap[north headline span-80]
+**Производительность**
+@snapend
 
 - Объекты в памяти расположены хаотично
 ![](src/memrand.png)
 
 +++ 
 
-#### Толстые базовые классы
+@snap[north headline span-80]
+**Толстые базовые классы**
+@snapend
 
 - Хочешь добавить новые фичи - скорее всего нужны новые поля/свойства
 ![](src/big1.png)
 
 +++ 
 
-#### Неочевидно, где писать код
+@snap[north headline span-80]
+**Неочевидно, где писать код**
+@snapend
 
 @ul
 - Многие системы в играх не работают лишь с одним объектом
@@ -36,7 +44,9 @@
 
 ---
 
-#### Код и данные - вместе или раздельно?
+@snap[north headline span-80]
+**Код и данные - вместе или раздельно?**
+@snapend
 
 @ul
 - Типичный ООП: данные и методы над ними - в одном классе.
@@ -45,13 +55,17 @@
 
 +++
 
+@snap[north headline span-80]
 Где написать код
+@snapend
 ![](src/where.png)
 - Задача всех программ и всех частей этих программ - это трансформация данных из одной формы в другую
 
 +++
 
-#### Данных - много
+@snap[north headline span-80]
+**Данных - много**
+@snapend
 
 @ul
 - Как часто вы встречаетесь с единственным экземпляром конкретной вещи?
@@ -62,7 +76,9 @@
 
 ---
 
-#### Data Oriented Design!
+@snap[north headline span-80]
+### Data Oriented Design!
+@snapend
 
 *ECS*:
 @ul
@@ -73,13 +89,17 @@
 
 +++
 
-#### А как это? ОО стиль
+@snap[north headline span-80]
+**А как это? ОО стиль**
+@snapend
 
 <img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/oo.png" />
 
 +++
 
-#### А как это? ОО стиль
+@snap[north headline span-80]
+**А как это? ОО стиль**
+@snapend
 
 ```csharp
 class Person
@@ -94,7 +114,9 @@ class DateTime<T> { /* fields */ }
 
 +++
 
-#### А как это? ОО стиль
+@snap[north headline span-80]
+**А как это? ОО стиль**
+@snapend
 
 ```csharp
 class World
@@ -106,7 +128,9 @@ class World
 
 +++
 
+@snap[north headline span-80]
 Разделим `Person` на части следующим образом:
+@snapend
 
 ```csharp
 class World
@@ -122,7 +146,9 @@ class World
 
 +++
 
-#### А как это? EC стиль
+@snap[north headline span-80]
+**А как это? EC стиль**
+@snapend
 
 <img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/ec.png" />
 
@@ -131,13 +157,17 @@ class World
 
 +++
 
-#### А как это? EC стиль
+@snap[north headline span-80]
+**А как это? EC стиль**
+@snapend
 
 <img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/blackmeme.jpeg" />
 
 ---
 
-#### Средний возраст
+@snap[north headline span-80]
+**Средний возраст**
+@snapend
 
 ```
 averageAge = totalAge / peopleCount
@@ -145,7 +175,9 @@ averageAge = totalAge / peopleCount
 
 +++
 
-#### Средний возраст
+@snap[north headline span-80]
+**Средний возраст**
+@snapend
 
 ```csharp
 class Person
@@ -164,7 +196,9 @@ var meanAge = people
 
 +++
 
-#### Доступ к памяти
+@snap[north headline span-80]
+**Доступ к памяти**
+@snapend
 
 <table style="font-size: 0.6em;">
     <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
@@ -186,7 +220,9 @@ var meanAge = people
 
 +++
 
-#### Доступ к памяти
+@snap[north headline span-80]
+**Доступ к памяти**
+@snapend
 
 <table style="font-size: 0.6em;">
     <tr><td rowspan="3">P0</td><td rowspan="2" bgcolor="#eecc99">Contact Details</td><td bgcolor="#eecc99">Address</td></tr>
@@ -208,7 +244,9 @@ var meanAge = people
 
 ---
 
-#### Средний возраст: Структура массивов
+@snap[north headline span-80]
+**Средний возраст: Структура массивов**
+@snapend
 
 ```csharp
 ContactDetails[] contactDetails = /* ... */;
@@ -225,7 +263,9 @@ var mean_age = world
 
 +++
 
-#### Доступ к памяти: Структура массивов
+@snap[north headline span-80]
+**Доступ к памяти: Структура массивов**
+@snapend
 
 <table style="font-size: 0.6em;">
     <tr><td>D0</td><td bgcolor="#eecc99">Date of Birth</td></tr>
@@ -236,7 +276,9 @@ var mean_age = world
 
 +++
 
-#### Доступ к памяти: Структура массивов
+@snap[north headline span-80]
+**Доступ к памяти: Структура массивов**
+@snapend
 
 <table style="font-size: 0.6em;">
     <tr><td>D0</td><td bgcolor="#aaccff">Date of Birth</td></tr>
@@ -247,7 +289,9 @@ var mean_age = world
 
 +++
 
-#### AOS vs SOA
+@snap[north headline span-80]
+**AOS vs SOA**
+@snapend
 
 ```
 name      aos ns/iter  soa ns/iter  diff ns/iter   diff %
