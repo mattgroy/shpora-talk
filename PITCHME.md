@@ -153,9 +153,7 @@ class World
 
 +++
 
-@snap[north headline span-80]
 **А как это? EC стиль**
-@snapend
 
 <img src="https://raw.githubusercontent.com/mattgroy/shpora-talk/master/src/blackmeme.jpeg" />
 
